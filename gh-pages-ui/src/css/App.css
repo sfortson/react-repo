@@ -1,0 +1,38 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    vertical-align: middle;
+    float: left;
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-title:link {
+    text-decoration: none;
+    vertical-align: middle;
+    color: white;
+    font-size: 1.5em;
+    padding: 30px;
+    float: right;
+}
+
+.App-title:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.App-title:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

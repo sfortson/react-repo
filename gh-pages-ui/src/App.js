@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import vt_logo from './virginia_tech_football.png';
-import './App.css';
+// @flow
 
-class App extends Component {
-  render() {
+import React from 'react'
+import vtLogo from './components/static/virginia_tech_football.png'
+import TopNavBar from './components/top-nav-bar.js'
+import './css/App.css'
+import './components/top-nav-bar.css'
+
+class App extends React.Component<{}, {}> {
+  render () {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <a href="https://sfortson.github.io/react-repo" className="App-title">Home</a>
-        </header>
+        <TopNavBar />
         <p className="App-intro">
-          <img src={vt_logo} />
+          <img src={vtLogo} />
         </p>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
