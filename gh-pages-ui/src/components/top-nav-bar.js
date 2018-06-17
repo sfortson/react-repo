@@ -1,6 +1,7 @@
 // @flow
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from './static/logo.svg'
 import './top-nav-bar.css'
 
@@ -9,7 +10,8 @@ export class TopNavBar extends React.Component<{}, {}> {
     return (
       <div className="topnavbar">
         <img src={logo} className="App-logo" alt="logo" />
-        <a href="https://sfortson.github.io/react-repo" className="App-title">Home</a>
+        <Link to="/blog" className="App-title">Blog</Link>
+        <Link to="/" className="App-title">Home</Link>
       </div>
     )
   }
