@@ -2,20 +2,10 @@
 
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import vtLogo from './components/static/virginia_tech_football.png'
 import TopNavBar from './components/top-nav-bar.js'
+import Home from './components/home.js'
 import './css/App.css'
 import './components/top-nav-bar.css'
-
-class Home extends React.Component<{}, {}> {
-  render () {
-    return (
-      <p className="App-intro">
-        <img src={vtLogo} />
-      </p>
-    )
-  }
-}
 
 class Blog extends React.Component<{}, {}> {
   render () {
