@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import TopNavBar from './components/top-nav-bar.js'
 import Home from './components/home.js'
 import './css/App.css'
-import './components/top-nav-bar.css'
+import './css/top-nav-bar.css'
 
 class Blog extends React.Component<{}, {}> {
   render () {

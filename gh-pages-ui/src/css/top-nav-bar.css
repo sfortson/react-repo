@@ -1,12 +1,9 @@
-.topnavbar {
-  background-color: #222;
-  height: 50px;
-  padding: 5px;
-  color: white;
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
 
 .App-logo {
-  vertical-align: middle;
   float: left;
   animation: App-logo-spin infinite 20s linear;
   height: 40px;
