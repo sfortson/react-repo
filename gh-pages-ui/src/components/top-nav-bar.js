@@ -11,7 +11,7 @@ export class TopNavBar extends React.Component<{}, {}> {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href='/'>
+            <a href='#/'>
               <img src={logo} className='App-logo' alt='react-logo'/>
               Home
             </a>
