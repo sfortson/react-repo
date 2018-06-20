@@ -11,15 +11,18 @@ export class TopNavBar extends React.Component<{}, {}> {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="/">
+            <a href='/'>
               <img src={logo} className='App-logo' alt='react-logo'/>
               Home
             </a>
           </Navbar.Brand>
         </Navbar.Header>
         <Nav pullRight>
-          <NavItem eventKey={1} href="/blog">
+          <NavItem eventKey={0} href="#/blog">
             Blog
+          </NavItem>
+          <NavItem eventKey={1} href='#/about'>
+            About
           </NavItem>
         </Nav>
       </Navbar>
