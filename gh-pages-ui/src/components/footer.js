@@ -9,9 +9,9 @@ import '../css/footer.css'
 export class Footer extends React.Component<{}, {}> {
   render () {
     return (
-      <Navbar inverse fixedBottom>
+      <Navbar inverse staticBottom>
         <Nav className="site-map">
-          <NavItem href="https://twitter.com/samfortson">Test</NavItem>
+          <p>Find me on social media:</p>
         </Nav>
         <Nav className='social-icons'>
           <NavItem href="https://twitter.com/samfortson">

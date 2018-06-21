@@ -8,7 +8,7 @@ import '../css/top-nav-bar.css'
 export class TopNavBar extends React.Component<{}, {}> {
   render () {
     return (
-      <Navbar inverse collapseOnSelect>
+      <Navbar inverse staticTop collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
             <a href='#/'>
@@ -16,15 +16,18 @@ export class TopNavBar extends React.Component<{}, {}> {
               Home
             </a>
           </Navbar.Brand>
+          <Navbar.Toggle />
         </Navbar.Header>
-        <Nav pullRight>
-          <NavItem eventKey={0} href="#/blog">
-            Blog
-          </NavItem>
-          <NavItem eventKey={1} href='#/about'>
-            About
-          </NavItem>
-        </Nav>
+        <Navbar.Collapse>
+          <Nav pullRight key={1}>
+            <NavItem eventKey={0} href="#/blog">
+              Blog
+            </NavItem>
+            <NavItem eventKey={1} href='#/about'>
+              About
+            </NavItem>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
     )
   }
