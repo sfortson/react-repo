@@ -1,8 +1,10 @@
 .App {
+    height: 100%;
     text-align: center;
 }
 
 .App-intro {
     font-family: 'Shrikhand', cursive;
     font-size: large;
+    padding-bottom: 300px;
 }

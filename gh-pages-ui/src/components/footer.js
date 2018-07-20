@@ -9,7 +9,7 @@ import '../css/footer.css'
 export class Footer extends React.Component<{}, {}> {
   render () {
     return (
-      <Navbar inverse staticBottom>
+      <Navbar inverse className="footer">
         <Nav className="site-map">
           <p>Find me on social media:</p>
         </Nav>
