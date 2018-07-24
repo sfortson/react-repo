@@ -2,7 +2,37 @@
     "extends": [
         "standard",
         "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "prettier",
+        "prettier/flowtype"
     ],
-    "parser": "babel-eslint"
+    "parser": "babel-eslint",
+    "plugins": [
+        "babel",
+        "flowtype",
+        "import",
+        "prettier"
+    ],
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "prettier/prettier": "error",
+        "react/sort-comp": "error",
+        "react/jsx-no-duplicate-props": "error",
+
+        "no-invalid-this": "off",
+        "babel/no-invalid-this": "error",
+
+        "import/first": "error",
+        "import/no-duplicates": "error",
+        "import/extensions": "error",
+        "import/order": "error",
+        "import/newline-after-import": "error",
+
+        "react/jsx-wrap-multilines": "off",
+        "react/jsx-indent": "off",
+        "func-style": "off",
+        "sort-imports": "off"
+    }
 }
