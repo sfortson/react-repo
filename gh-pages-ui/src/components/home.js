@@ -1,23 +1,21 @@
 // @flow
 
 import React from 'react';
-import { PageHeader } from 'react-bootstrap';
+import { Image, Grid, Row, Col } from 'react-bootstrap';
+import dragonsTooth from './static/dragons_tooth.jpg';
 import vtLogo from './static/virginia_tech_football.png';
-import '../css/App.css';
+import '../css/home.css';
 
 class Home extends React.Component<{}, {}> {
   render() {
     return (
-      <div>
-        <PageHeader inverse>Welcome home</PageHeader>
-        <div>
-          <p className="App-intro">
-            <img src={vtLogo} alt="VT Logo" />
-            <br />
-            Say Something here.
-          </p>
-        </div>
-      </div>
+      <Grid fluid>
+        <Row>
+          <Col>
+            <Image style={{ width: '100%' }} src={dragonsTooth} responsive />
+          </Col>
+        </Row>
+      </Grid>
     );
   }
 }

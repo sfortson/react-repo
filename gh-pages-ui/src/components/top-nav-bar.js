@@ -8,7 +8,7 @@ import '../css/top-nav-bar.css';
 export class TopNavBar extends React.Component<{}, {}> {
   render() {
     return (
-      <Navbar inverse staticTop collapseOnSelect>
+      <Navbar style={{ paddingBottom: '0px', marginBottom: '0px' }} staticTop collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#/">
