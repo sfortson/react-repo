@@ -1,9 +1,16 @@
 {
-  "main.css": "static/css/main.eef57fcc.css",
-  "main.css.map": "static/css/main.eef57fcc.css.map",
-  "main.js": "static/js/main.1aa3a37e.js",
-  "main.js.map": "static/js/main.1aa3a37e.js.map",
-  "static/media/dragons_tooth.jpg": "static/media/dragons_tooth.dc94e7e1.jpg",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg",
-  "static/media/virginia_tech_football.png": "static/media/virginia_tech_football.bfe908d3.png"
+  "main.css": "/react-repo/static/css/main.99b19459.chunk.css",
+  "main.js": "/react-repo/static/js/main.68495ad0.chunk.js",
+  "main.js.map": "/react-repo/static/js/main.68495ad0.chunk.js.map",
+  "runtime~main.js": "/react-repo/static/js/runtime~main.95175871.js",
+  "runtime~main.js.map": "/react-repo/static/js/runtime~main.95175871.js.map",
+  "static/js/2.2d8e39a0.chunk.js": "/react-repo/static/js/2.2d8e39a0.chunk.js",
+  "static/js/2.2d8e39a0.chunk.js.map": "/react-repo/static/js/2.2d8e39a0.chunk.js.map",
+  "index.html": "/react-repo/index.html",
+  "precache-manifest.ac5a7fa2c32c888f814ece76055ccd84.js": "/react-repo/precache-manifest.ac5a7fa2c32c888f814ece76055ccd84.js",
+  "service-worker.js": "/react-repo/service-worker.js",
+  "static/css/main.99b19459.chunk.css.map": "/react-repo/static/css/main.99b19459.chunk.css.map",
+  "static/media/dragons_tooth.jpg": "/react-repo/static/media/dragons_tooth.dc94e7e1.jpg",
+  "static/media/logo.svg": "/react-repo/static/media/logo.5d5d9eef.svg",
+  "static/media/virginia_tech_football.png": "/react-repo/static/media/virginia_tech_football.bfe908d3.png"
 }
